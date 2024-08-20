@@ -81,15 +81,17 @@ print(sum_even(1, 10))
 def fibonacci(n):
     a = 0
     b = 1
+    print(a)
+    print(b)
     while a < n:
-        print(a)
         a = b
         b = a + b
+        print(a)
 
 fibonacci(50)
 
 # 10.taks
-# Создайте функцию, которая принимает целое число n и выводит на экран все простые числа от 2 до n.\
+# Создайте функцию, которая принимает целое число n и выводит на экран все простые числа от 2 до n.
 def print_primes(n):
     for i in range(2, n+1):
         is_prime = True
