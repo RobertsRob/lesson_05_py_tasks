@@ -84,8 +84,7 @@ def fibonacci(n):
     print(a)
     print(b)
     while a < n:
-        a = b
-        b = a + b
+        a, b = b, a + b
         print(a)
 
 fibonacci(50)
